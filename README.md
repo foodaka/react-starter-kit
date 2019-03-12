@@ -1,7 +1,7 @@
 
 # React Redux Starter Kit
 
-This repo allows for some technologies out of the box
+This repo is bootstrapped with react-create-app and has some additional technologies out of the box
 
 * React
 * Redux
