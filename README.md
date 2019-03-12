@@ -15,18 +15,25 @@ TODO:
 * Add scss support
 * Root imports on file paths
 
+
+## Setup
 Install packages
-``` yarn install ```
+
+```bash
+yarn install 
+```
 
 Run Server
-``` yarn start ```
+```bash 
+yarn start 
+```
 
 Check if all validations pass
-```
+```bash
 yarn run validate 
 ```
 
 Auto format code using prettier
-``` 
+```bash 
 yarn run validate
 ```
