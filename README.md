@@ -11,6 +11,9 @@ This repo allows for some technologies out of the box
 * Prettier formatting
 
 
+TODO:
+* Add scss support
+* Root imports on file paths
 
 Install packages
 ``` yarn install ```
