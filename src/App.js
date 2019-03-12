@@ -6,31 +6,29 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  testStore() {
+  testStore = () => {
     const {testAction} = this.props;
     testAction();
-  }
+  };
 
   render() {
     const {store} = this.props;
     return (
       <div className="App">
-        <header className="App-header">
+        <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>Hello Blockchain!</p>
-          <p>
-            click the button to verify redux store:
-            {store}
-          </p>
+          <div>Hello Blockchain!</div><br />
+          <div>click the button to verify redux store</div><br />
+          <div>{store}</div><br />
           <button onClick={this.testStore}>HOLA</button>
-        </header>
+        </div>
       </div>
     );
   }
 }
 
 const mapStateToProps = state => ({
-  store: state.result,
+  store: state.tempReducer.result,
 });
 
 const mapDispatchToProps = dispatch => ({
