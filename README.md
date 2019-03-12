@@ -35,5 +35,5 @@ yarn run validate
 
 Auto format code using prettier
 ```bash 
-yarn run validate
+yarn run format
 ```
