@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  },
+  "extends": ["airbnb", "eslint-config-prettier"],
+  "env": {
+    "browser": true
+  }
+}
